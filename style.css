@@ -1,0 +1,72 @@
+html,body {
+    background: linear-gradient(#a8a8a8, white) ;
+    height: 100%;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+}
+* {
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: blueviolet;
+    text-shadow: 3px 0 cyan;
+}
+.set {
+    margin: 7% auto;
+}
+
+.drum {
+    padding: 50px 50px;
+    font-family: 'Bungee', cursive;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    font-weight: 700;
+    border: 10px solid #404B69;
+    border-radius: 15px;
+    display: inline-block;
+    outline: none;
+    font-size: 5rem;
+    margin: 10px;
+    height :150px;
+    text-align: center;
+    line-height: 0;
+}
+.w {
+    background-image: url("images/crash.png");
+    background-size: cover;
+}
+.a {
+    background-image: url("images/kick.png");
+    background-size: cover;
+}
+.s{ 
+    background-image: url("images/snare.png");
+    background-size: cover;
+}
+.d{ 
+    background-image: url("images/tom1.png");
+    background-size: cover;
+}
+.j{ 
+    background-image: url("images/tom2.png");
+    background-size: cover;
+}
+.k{ 
+    background-image: url("images/tom3.png");
+    background-size: cover;
+}
+.l{ 
+    background-image: url("images/tom4.png");
+    background-size: cover;
+}
+h4 {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 300;
+}
+.pressed {
+    color: white;
+    opacity: 0.5;
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+}
